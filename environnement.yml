@@ -1,0 +1,4 @@
+name: portfolio_env
+channels:
+  - defaults
+prefix: /opt/anaconda3/envs/portfolio_env
