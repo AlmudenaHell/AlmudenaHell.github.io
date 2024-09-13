@@ -1,1 +1,30 @@
-site_name: My Docs
+# Project information
+site_name: Almudena's data science portfolio
+site_url: https://almudenahell.github.io/
+site_author: Almudena Hellin
+site_description: >-
+  I'am Almudena Toulemonde, Physicist and Data scientist, 
+  and you are here on my data science portfolio
+
+# Configuration
+theme:
+  name: material
+
+# Additional configuration
+extra:
+  analytics:
+    provider: google
+    property: <google analystics code>
+
+# Pages
+nav:
+- Home: index.md
+- Current project:
+  - "Data science projects": docs/data_science_projects/readme.md
+  - "Skills based projects": docs/skills_based_projects/readme.md
+- Previous data science projects:
+  - "Kaggle": docs/Kaggle/readme.md
+  - "DataCamp": docs/DataCamp/readme.md
+  - "Udacity": docs/Udacity/readme.md
+- Previous skills based projects:
+  - "FreeCodeCamp ": docs/FreeCodeCamp/readme.md
